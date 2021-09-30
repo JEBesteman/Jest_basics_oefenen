@@ -1,0 +1,20 @@
+{
+  "name": "jest_basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint --ext .js --ignore-path .gitignore ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "jest": "^27.2.3"
+  },
+  "dependencies": {
+    "eslint-plugin-jest": "^24.5.0"
+  }
+}
